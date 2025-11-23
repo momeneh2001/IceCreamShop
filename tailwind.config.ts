@@ -35,13 +35,15 @@ const config: Config = {
         xxl: "1440px",
       },
       colors: {
-        iceBlue: "#aee1f9",
-        strawberryPink: "#ff85a2",
         darkPurple: "#683292",
         hotPink: "#F83D8E",
       },
+      boxShadow: {
+        hotPink: "0 4px 15px rgba(248, 61, 142, 0.5)",
+      },
       backgroundImage: {
         'ice-gradient': 'linear-gradient(336deg, #EFD7EF 8%, #F5F9FC 40%, #F8EAE1 66%, #EAF8F9 91%)',
+        'icecream': "url('/images/snow2-removebg-preview')",
       },
     },
   },

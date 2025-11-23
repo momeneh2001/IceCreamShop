@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background: #ffffff;
+  /* --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255; */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    /* --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0; */
   }
 }
 
@@ -30,4 +30,10 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+.overlayEdit {
+  @apply invisible opacity-0 fixed inset-0 w-full h-full bg-black/40 z-10 transition-all;
+}
+.overlayEdit--visible {
+  @apply visible opacity-100;
 }
