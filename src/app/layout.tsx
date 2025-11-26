@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="h-[800px] bg-ice-gradient">{children}</body>
+      <body className="">{children}</body>
     </html>
   );
 }

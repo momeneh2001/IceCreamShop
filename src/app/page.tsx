@@ -1,10 +1,14 @@
 import Header from "@/components/modules/header/Header";
-import Image from "next/image";
+import HeroSection from "@/components/template/heroSection/HeroSection";
+
 
 export default function Home() {
   return (
     <>
-      <Header variant="glass"/>
+      <Header variant="glass" />
+      <main>
+        <HeroSection />
+      </main>
     </>
   );
 }

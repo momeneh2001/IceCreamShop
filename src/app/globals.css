@@ -32,7 +32,7 @@ body {
   }
 }
 .overlayEdit {
-  @apply invisible opacity-0 fixed inset-0 w-full h-full bg-black/40 z-10 transition-all;
+  @apply invisible opacity-0 fixed inset-0 w-full h-full bg-black/50 z-10 transition-all;
 }
 .overlayEdit--visible {
   @apply visible opacity-100;

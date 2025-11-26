@@ -31,7 +31,7 @@ export default function Header({ variant = "default" }: HeaderProps) {
             className={
                 isGlass
                     ? "fixed w-full top-0 left-0 z-50"
-                    : "fixed w-full top-0 left-0 z-50 bg-white"
+                    : "sticky w-full top-0 left-0 z-50 bg-white"
             }
         >
             <div className="container py-5">
