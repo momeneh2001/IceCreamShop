@@ -5,7 +5,7 @@ import { IoMdArrowRoundForward } from 'react-icons/io'
 
 function ProductCardVariantC() {
     return (
-        <div>
+        <div className='flex flex-col items-center justify-center w-[255px] h-[470px]'>
             {/* img */}
             <div className='bg-white rounded-full w-64 h-64 flex items-end justify-center'>
                 <div className="relative xxl:w-[147px] xxl:h-[216px]">
