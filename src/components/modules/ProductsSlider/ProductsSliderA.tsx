@@ -33,6 +33,15 @@ export default function ProductsSliderA() {
           onSlideChange={handleSlideChange} 
           modules={[FreeMode]}
           spaceBetween={10}
+          breakpoints={{
+            0: { slidesPerView: 1.3 },
+            480: { slidesPerView: 1.5 },
+            640: { slidesPerView: 2 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+            1280: { slidesPerView: 4 },
+            1440: { slidesPerView: 4 },
+          }}
           loop={true}
           slidesPerView={4} 
           freeMode={true}

@@ -1,4 +1,5 @@
 import Header from "@/components/modules/header/Header";
+import DiscoverSection from "@/components/template/discoverSection/DiscoverSection";
 import FeaturedProducts from "@/components/template/featuredProducts/FeaturedProducts";
 import HeroSection from "@/components/template/heroSection/HeroSection";
 import IntroSection from "@/components/template/IntroSection/IntroSection";
@@ -12,6 +13,7 @@ export default function Home() {
         <HeroSection />
         <IntroSection/>
         <FeaturedProducts/>
+        <DiscoverSection/>
       </main>
     </>
   );
