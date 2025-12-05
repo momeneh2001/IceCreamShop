@@ -3,6 +3,7 @@ import DiscoverSection from "@/components/template/discoverSection/DiscoverSecti
 import FeaturedProducts from "@/components/template/featuredProducts/FeaturedProducts";
 import HeroSection from "@/components/template/heroSection/HeroSection";
 import IntroSection from "@/components/template/IntroSection/IntroSection";
+import PromotionsSection from "@/components/template/PromotionsSection/PromotionsSection";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <IntroSection/>
         <FeaturedProducts/>
         <DiscoverSection/>
+        <PromotionsSection/>
       </main>
     </>
   );
