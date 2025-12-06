@@ -1,4 +1,5 @@
 import Header from "@/components/modules/header/Header";
+import BestSellersSection from "@/components/template/bestSellersSection/BestSellersSection";
 import DiscoverSection from "@/components/template/discoverSection/DiscoverSection";
 import FeaturedProducts from "@/components/template/featuredProducts/FeaturedProducts";
 import HeroSection from "@/components/template/heroSection/HeroSection";
@@ -16,6 +17,7 @@ export default function Home() {
         <FeaturedProducts/>
         <DiscoverSection/>
         <PromotionsSection/>
+        <BestSellersSection/>
       </main>
     </>
   );
