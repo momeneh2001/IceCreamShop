@@ -6,8 +6,8 @@ import HeroPromoB from './HeroPromoB'
 function PromotionsSection() {
   return (
     <>
-      {/* <HeroPromoA/> */}
-      <HeroPromoB/>
+      <HeroPromoA/>
+      {/* <HeroPromoB/> */}
       {/* <HeroPromoC/> */}
     </>
   )

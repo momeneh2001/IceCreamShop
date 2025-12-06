@@ -1,7 +1,6 @@
 import ProductsSliderA from '@/components/modules/ProductsSlider/ProductsSliderA';
 import ProductsSliderB from '@/components/modules/ProductsSlider/ProductsSliderB';
 import Image from 'next/image';
-import { title } from 'process';
 import React from 'react'
 
 function BestSellersSection() {
