@@ -5,6 +5,7 @@ import FeaturedProducts from "@/components/template/featuredProducts/FeaturedPro
 import FeedbackSection from "@/components/template/FeedbackSection/FeedbackSection";
 import HeroSection from "@/components/template/heroSection/HeroSection";
 import IntroSection from "@/components/template/IntroSection/IntroSection";
+import NewsletterSection from "@/components/template/newsletterSection/NewsletterSection";
 import PromotionsSection from "@/components/template/PromotionsSection/PromotionsSection";
 
 
@@ -20,6 +21,7 @@ export default function Home() {
         <PromotionsSection/>
         <BestSellersSection/>
         <FeedbackSection/>
+        <NewsletterSection/>
       </main>
     </>
   );
