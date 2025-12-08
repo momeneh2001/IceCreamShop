@@ -1,3 +1,4 @@
+import Footer from "@/components/modules/footer/Footer";
 import Header from "@/components/modules/header/Header";
 import BestSellersSection from "@/components/template/bestSellersSection/BestSellersSection";
 import DiscoverSection from "@/components/template/discoverSection/DiscoverSection";
@@ -23,6 +24,7 @@ export default function Home() {
         <FeedbackSection/>
         <NewsletterSection/>
       </main>
+      <Footer/>
     </>
   );
 }

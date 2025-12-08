@@ -37,15 +37,17 @@ const config: Config = {
       colors: {
         darkPurple: "#683292",
         hotPink: "#F83D8E",
+        mloPurple: "#CFB6E2",
       },
       boxShadow: {
         hotPink: "0 4px 15px rgba(248, 61, 142, 0.5)",
       },
       backgroundImage: {
-        'ice-gradient': 'linear-gradient(336deg, #EFD7EF 8%, #F5F9FC 40%, #F8EAE1 66%, #EAF8F9 91%)',
-        'icecream': "url('/images/snow2-removebg-preview')",
-        'bgpattern2': "url('/images/SectionPattern2.png')",
-        'bgpattern3': "url('/images/SectionPatter3.png')",
+        "ice-gradient":
+          "linear-gradient(336deg, #EFD7EF 8%, #F5F9FC 40%, #F8EAE1 66%, #EAF8F9 91%)",
+        icecream: "url('/images/snow2-removebg-preview')",
+        bgpattern2: "url('/images/SectionPattern2.png')",
+        bgpattern3: "url('/images/SectionPatter3.png')",
       },
     },
   },
