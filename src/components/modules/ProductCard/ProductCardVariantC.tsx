@@ -7,8 +7,10 @@ function ProductCardVariantC() {
     return (
         <div className='flex flex-col items-center justify-center w-[255px] h-[470px]'>
             {/* img */}
-            <div className='bg-white rounded-full w-64 h-64 flex items-end justify-center'>
-                <div className="relative xxl:w-[147px] xxl:h-[216px]">
+            <div
+                className=" bg-white rounded-full flex items-end justify-center w-[180px] h-[180px] xs:w-[200px] xs:h-[200px] sm:w-[220px] sm:h-[220px] md:w-[240px] md:h-[240px] lg:w-64 lg:h-64 max-w-64 max-h-64 ">
+                <div
+                    className=" relative w-[90px] h-[130px] xs:w-[100px] xs:h-[145px] sm:w-[110px] sm:h-[160px] md:w-[120px] md:h-[180px] lg:w-[130px] lg:h-[195px] xl:w-[140px] xl:h-[205px] xxl:w-[147px] xxl:h-[216px] ">
                     <Image
                         src="/images/productimgVC.png"
                         alt="Ice Tales Logo"

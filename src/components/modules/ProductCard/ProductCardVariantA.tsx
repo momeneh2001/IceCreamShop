@@ -9,7 +9,7 @@ function ProductCardVariantA() {
         <div className='p-3 bg-white rounded-2xl h-[420px] w-[257px]'>
             {/* image */}
             <div className='relative bg-[#F7F2F7] w-[233px] h-[244px] flex items-center justify-center rounded-lg'>
-                <div className="relative xxl:w-[180px] xxl:h-[167px]">
+                <div className="relative w-[140px] h-[130px] xs:w-[150px] xs:h-[140px] sm:w-[160px] sm:h-[150px] md:w-[170px] md:h-[155px] lg:w-[175px] lg:h-[160px] xl:w-[180px] xl:h-[167px]">
                     <Image
                         src="/images/productimgVA.png"
                         alt="Ice Tales Logo"

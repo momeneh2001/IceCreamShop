@@ -3,12 +3,30 @@ import React from 'react'
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 import { IoMdArrowRoundForward } from 'react-icons/io';
 
-function ProductCardVariantB() {
+interface ProductCardVariantBProps {
+    width: 'small' | 'large'
+}
+
+function ProductCardVariantB({ width }: ProductCardVariantBProps) {
     return (
-        <div className='flex flex-col items-center justify-center w-[350px] h-[482px]'>
+        // width large 350px   small 250px
+        <div
+            className={`flex flex-col items-center justify-center h-[482px]
+          ${width === 'large'
+                    ? 'w-[350px] xxl:w-[350px]'
+                    : 'w-[250px] xxl:w-[250px]'
+                }`}
+        >
             {/* img */}
+            {/*  // width large 350px   small 250px */}
             <div>
-                <div className="relative xxl:w-[350px] xxl:h-[289px]">
+                <div
+                    className={`relative h-[289px]
+                        ${width === 'large'
+                            ? 'w-[350px] xxl:w-[350px]'
+                            : 'w-[250px] xxl:w-[250px]'
+                        }`}
+                >
                     <Image
                         src="/images/productimgVB.png"
                         alt="Ice Tales Logo"
