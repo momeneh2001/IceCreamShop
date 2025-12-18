@@ -37,3 +37,6 @@ body {
 .overlayEdit--visible {
   @apply visible opacity-100;
 }
+.swiper-slide-thumb-active .thumb {
+  @apply border-hotPink;
+}
