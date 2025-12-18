@@ -41,7 +41,7 @@ function ProductsSliderB({type}:ProductsSliderBProps) {
                 >
                     {[1, 2, 3, 4, 5, 6].map((i) => (
                         <SwiperSlide key={i}>
-                            {type === 'B' ? <ProductCardVariantB /> : <ProductCardVariantC />}
+                            {type === 'B' ? <ProductCardVariantB width="large" /> : <ProductCardVariantC />}
                         </SwiperSlide>
                     ))}
                 </Swiper>
