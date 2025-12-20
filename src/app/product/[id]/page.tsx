@@ -24,8 +24,8 @@ function Product({ params }: ProductProps) {
                         <GalleryA/>
                         <Details/>
                     </div>
-                    {/* Not complete yet, will be updated later. */}
-                    {/* <Tab/> */}
+                    
+                    <Tab/>
                 </section>
                 <RelatedProducts type='B' bgImage={false} />
             </main>
