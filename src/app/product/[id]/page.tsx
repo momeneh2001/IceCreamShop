@@ -3,6 +3,8 @@ import Header from '@/components/modules/header/Header'
 import PageHeading from '@/components/modules/pageHeading/PageHeading'
 import Details from '@/components/template/product/Details'
 import GalleryA from '@/components/template/product/productGallery/GalleryA'
+import GalleryB from '@/components/template/product/productGallery/GalleryB'
+import GalleryC from '@/components/template/product/productGallery/GalleryC'
 import RelatedProducts from '@/components/template/product/RelatedProducts'
 import Tab from '@/components/template/product/Tab'
 import React from 'react'
@@ -22,6 +24,8 @@ function Product({ params }: ProductProps) {
                 <section className='container mb-48'>
                     <div className=' mt-24 flex gap-16'>
                         <GalleryA/>
+                        {/* <GalleryB/> */}
+                        {/* <GalleryC/> */}
                         <Details/>
                     </div>
                     
