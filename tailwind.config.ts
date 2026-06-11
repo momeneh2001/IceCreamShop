@@ -52,7 +52,7 @@ const config: Config = {
     },
   },
 
-  plugins: [childPlugin],
+  plugins: [childPlugin, require("tailwind-scrollbar")],
 };
 
 export default config;
